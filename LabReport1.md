@@ -1,6 +1,6 @@
 cd command:
 1. <img width="171" alt="Lab1cd1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/ebde7e21-8722-4562-aacd-b3d6bd8ef56d">
-    - the working directory was 
+        the working directory was 
 2. <img width="261" alt="Lab1cd2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f842eb45-9d40-482e-9f82-b31ccb657fc1">
     - 
 3. <img width="318" alt="Lab1cd3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/5787ae5a-eb6f-401f-bae0-0ac075ff16c1">
