@@ -25,6 +25,7 @@ ls command: <br>
 - The working directory when the command ran was /home <br>
 - I got this output because there are no other files in README unlike lecture1 which we saw from the example above where there were other files within the lecture1 directory <br>
 - This is an error because the ls command was not able to list any files within README since there exists no files <br>
+
 cat command:  <br>
 1. <img width="267" alt="Lab1cat1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/2c8ed807-8f96-4ae6-bfab-1be711b91d99">  <br>
 - The working directory when the command ran was /home/lecture1 <br>
