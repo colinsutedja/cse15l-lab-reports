@@ -5,7 +5,7 @@ cd command: <br>
 - This is not an error <br>
 2. <img width="261" alt="Lab1cd2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f842eb45-9d40-482e-9f82-b31ccb657fc1"> <br>
 - The working directory when the command ran was /home/lecture1 <br>
-- I got this output because when we use cd with the argument lecture1 (directory) we are changing the working directory to /home/lecture1 which is why we now see "/lecture1" after the "~" which means home directory <br>
+- I got this output because when we use cd with the argument lecture1 (a directory) we are changing the working directory to /home/lecture1 which is why we now see "/lecture1" after the "~" which means home directory <br>
 - This is not an error <br>
 3. <img width="318" alt="Lab1cd3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/5787ae5a-eb6f-401f-bae0-0ac075ff16c1"> <br>
 - The working directory when the command ran was /home/lecture1 <br>
@@ -13,29 +13,29 @@ cd command: <br>
 - This is an error because we are trying to use a file as argument which is not possible for the cd command since we need a directory as an argument if we are trying to change directory <br>
 
 ls command: <br>
-1. <img width="174" alt="Lab1ls1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/4da316d2-88fc-408e-85ec-ec63abaeae24"> <br>
-- The working directory when the command ran was /home <br>
-- I got this output because the ls command just lists the files and folders in the current directory we are in which is /home so the output just lists lecture1 because it is the only folder that is in /home and there are no other files <br>
+1. <img width="373" alt="Lab1ls1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/11c30736-5de7-4c6c-a1b7-e375c2267ecd"> <br>
+- The working directory when the command ran was /home/lecture1 <br>
+- I got this output because the ls command is listing the files and folders in the given path /home/lecture1 which is why our output gives us 3 files and 1 folder (messages is bolded indicating that it is a folder) <br>
 - This is not an error <br>
-2. <img width="372" alt="Lab1ls2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/45bc3a6f-077c-419a-bc33-0ad4b20639ef"> <br>
-- The working directory when the command ran was /home <br>
-- I got this output because the ls command is listing the files in lecture1 which are the ones that are listed. Messages is bolded because it is another directory that we can go to which contains more files <br>
+2. <img width="357" alt="Lab1ls2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f5976bc9-cb3c-4d3d-846a-d4f04ec6992c"> <br>
+- The working directory when the command ran was /home/lecture1/messages <br>
+- I got this output because the ls command with the argument messages (a directory) is listing the files and folders in the given path /home/lecture1/messages which is why our output gives us 4 txt files that are within the messages folder <br>
 - This is not an error <br>
-3. <img width="480" alt="Lab1ls3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/ab3e1516-7878-40cb-b56a-19bb9da2f292"> <br>
-- The working directory when the command ran was /home <br>
-- I got this output because there are no other files in README unlike lecture1 which we saw from the example above where there were other files within the lecture1 directory <br>
-- This is an error because the ls command was not able to list any files within README since there exists no files <br>
+3. <img width="320" alt="Lab1ls3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/aa8287bf-c638-4823-bf2d-0f7399aaab3a"> <br>
+- The working directory when the command ran was /home/lecture1/README <br>
+- I got this output because the ls command with the argument README (a file) is listing the files and folders in the given path /home/lecture1/README and the only file in this path is README which is where we get our output <br>
+- This is not an error <br>
 
 cat command:  <br>
-1. <img width="267" alt="Lab1cat1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/2c8ed807-8f96-4ae6-bfab-1be711b91d99">  <br>
+1. <img width="267" alt="Lab1cat1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/2c8ed807-8f96-4ae6-bfab-1be711b91d99"> <br>
 - The working directory when the command ran was /home/lecture1 <br>
 - I got this output because the cat command without any arguments will read the terminal since there are no files to read <br>
 - This is not an error
-2. <img width="355" alt="Lab1cat2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/0e6ac8db-ff90-4333-82e7-40c23a2734e0">  <br>
-- The working directory when the command ran was /home/lecture1 <br>
-- I got this output because the cat command is used to read files but the argument we used was a directory which won't be able to print its contents <br>
+2. <img width="355" alt="Lab1cat2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/0e6ac8db-ff90-4333-82e7-40c23a2734e0"> <br>
+- The working directory when the command ran was /home/lecture1/messages <br>
+- I got this output because the cat command is used to read files but the argument messages (a directory) is not able to print the contents within the folder <br>
 - This is an error because we are trying to use cat to print out the directory messages but cat is unable to print its contents  <br> 
-3. <img width="722" alt="Lab1cat3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/874a588f-daeb-46cd-975f-3b045a179d22">  <br>
--  The working directory when the command ran was /home/lecture1 <br>
-- I got this output because the cat command is reading both the files of Hello.java and README so it combine (concatenate) both the files when printing their contents  <br>
-- This is not an error  <br>
+3. <img width="328" alt="Lab1cat3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/19b85121-cab6-473b-a933-265f8559b110"> <br>
+-  The working directory when the command ran was /home/lecture1/README <br>
+- I got this output because the cat command with the argument README (a file) will print the contents of the file README given by the path /home/lecture1/README <br>
+- This is not an error <br>
