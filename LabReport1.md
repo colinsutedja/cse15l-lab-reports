@@ -33,8 +33,8 @@ cat command:  <br>
 - This is not an error
 2. <img width="355" alt="Lab1cat2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/0e6ac8db-ff90-4333-82e7-40c23a2734e0"> <br>
 - The working directory when the command ran was /home/lecture1/messages <br>
-- I got this output because the cat command is used to read files but the argument messages (a directory) is not able to print the contents within the folder <br>
-- This is an error because we are trying to use cat to print out the directory messages but cat is unable to print its contents  <br> 
+- I got this output because the cat command is used to print the files in the given path but using the argument messages (a directory) is unable to print the contents which gives us the error message that messages/: Is a directory <br>
+- This is an error because we are using a directory as an argument for the cat command but cat is unable tp print the contents of a directory <br> 
 3. <img width="328" alt="Lab1cat3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/19b85121-cab6-473b-a933-265f8559b110"> <br>
 -  The working directory when the command ran was /home/lecture1/README <br>
 - I got this output because the cat command with the argument README (a file) will print the contents of the file README given by the path /home/lecture1/README <br>
