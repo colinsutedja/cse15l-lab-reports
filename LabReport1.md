@@ -29,7 +29,7 @@ ls command: <br>
 cat command:  <br>
 1. <img width="267" alt="Lab1cat1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/2c8ed807-8f96-4ae6-bfab-1be711b91d99"> <br>
 - The working directory when the command ran was /home/lecture1 <br>
-- I got this output because the cat command without any arguments will read the terminal since there are no files to read <br>
+- I got this output because the cat command without any arguments will read the terminal and print whatever we type in the terminal <br>
 - This is not an error
 2. <img width="355" alt="Lab1cat2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/0e6ac8db-ff90-4333-82e7-40c23a2734e0"> <br>
 - The working directory when the command ran was /home/lecture1/messages <br>
