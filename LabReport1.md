@@ -15,15 +15,15 @@ cd command: <br>
 ls command: <br>
 1. <img width="373" alt="Lab1ls1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/11c30736-5de7-4c6c-a1b7-e375c2267ecd"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
-- I got this output because the `ls` command is listing the files and folders in the given path `/home/lecture1` which is why our output gives us 3 files and 1 folder (messages is bolded indicating that it is a folder) <br>
+- I got this output because the `ls` command is listing the files and folders in the given path `/home/lecture1` which is why our output gives us 3 files and 1 folder (`messages` is bolded indicating that it is a folder) <br>
 - This is not an error <br>
 2. <img width="357" alt="Lab1ls2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f5976bc9-cb3c-4d3d-846a-d4f04ec6992c"> <br>
 - The working directory when the command ran was `/home/lecture1/messages` <br>
-- I got this output because the `ls` command with the argument messages (a directory) is listing the files and folders in the given path `/home/lecture1/messages` which is why our output gives us 4 txt files that are within the `messages` folder <br>
+- I got this output because the `ls` command with the argument `messages` (a directory) is listing the files and folders in the given path `/home/lecture1/messages` which is why our output gives us 4 txt files that are within the `messages` folder <br>
 - This is not an error <br>
 3. <img width="320" alt="Lab1ls3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/aa8287bf-c638-4823-bf2d-0f7399aaab3a"> <br>
 - The working directory when the command ran was `/home/lecture1/README` <br>
-- I got this output because the ls command with the argument `README` (a file) is listing the files and folders in the given path `/home/lecture1/README` and the only file in this path is `README` which is where we get our output <br>
+- I got this output because the `ls` command with the argument `README` (a file) is listing the files and folders in the given path `/home/lecture1/README` and the only file in this path is `README` which is where we get our output <br>
 - This is not an error <br>
 
 cat command:  <br>
