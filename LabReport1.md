@@ -1,7 +1,7 @@
 cd command: <br>
 1. <img width="171" alt="Lab1cd1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/ebde7e21-8722-4562-aacd-b3d6bd8ef56d"> <br>
 - The working directory when the command ran was `/home` <br>
-- I got this output because when we don't use an argument for the cd command, you aren't changing the directory which means we stay in the home directory <br>
+- I got this output because when we don't use an argument for the cd command, we will change directory back to `\home`. For example if we are in the path `/home/lecture1/messages` and use the cd command, we will just go back to the `/home` directory. <br>
 - This is not an error <br>
 2. <img width="261" alt="Lab1cd2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f842eb45-9d40-482e-9f82-b31ccb657fc1"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
@@ -15,7 +15,7 @@ cd command: <br>
 ls command: <br>
 1. <img width="373" alt="Lab1ls1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/11c30736-5de7-4c6c-a1b7-e375c2267ecd"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
-- I got this output because the ls command is listing the files and folders in the given path /home/lecture1 which is why our output gives us 3 files and 1 folder (messages is bolded indicating that it is a folder) <br>
+- I got this output because the ls command is listing the files and folders in the given path `/home/lecture1` which is why our output gives us 3 files and 1 folder (messages is bolded indicating that it is a folder) <br>
 - This is not an error <br>
 2. <img width="357" alt="Lab1ls2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f5976bc9-cb3c-4d3d-846a-d4f04ec6992c"> <br>
 - The working directory when the command ran was `/home/lecture1/messages` <br>
