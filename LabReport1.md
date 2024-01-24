@@ -1,16 +1,16 @@
 cd command: <br>
 1. <img width="171" alt="Lab1cd1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/ebde7e21-8722-4562-aacd-b3d6bd8ef56d"> <br>
 - The working directory when the command ran was `/home` <br>
-- I got this output because when we don't use an argument for the cd command, we will change directory back to `\home`. For example if we are in the path `/home/lecture1/messages` and use the cd command, we will just go back to the `/home` directory. <br>
+- I got this output because when we don't use an argument for the `cd` command, we will change directory back to `\home`. For example if we are in the path `/home/lecture1/messages` and use the `cd` command, we will just go back to the `/home` directory. <br>
 - This is not an error <br>
 2. <img width="261" alt="Lab1cd2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f842eb45-9d40-482e-9f82-b31ccb657fc1"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
-- I got this output because when we use cd with the argument lecture1 (a directory) we are changing the working directory to `/home/lecture1` which is why we now see `/lecture1` after the "~" which means home directory <br>
+- I got this output because when we use `cd` with the argument lecture1 (a directory) we are changing the working directory to `/home/lecture1` which is why we now see `/lecture1` after the "~" which means home directory <br>
 - This is not an error <br>
 3. <img width="318" alt="Lab1cd3" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/5787ae5a-eb6f-401f-bae0-0ac075ff16c1"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
-- I got this output because when we use cd with the argument README (a file) we aren't chaning the working directory since a directory stores other files but README is just a file which does not store other files, thus getting the output that README is not a directory <br>
-- This is an error because we are trying to use a file as argument which is not possible for the cd command since we need a directory as an argument if we are trying to change directory <br>
+- I got this output because when we use `cd` with the argument README (a file) we aren't chaning the working directory since a directory stores other files but README is just a file which does not store other files, thus getting the output that README is not a directory <br>
+- This is an error because we are trying to use a file as argument which is not possible for the `cd` command since we need a directory as an argument if we are trying to change directory <br>
 
 ls command: <br>
 1. <img width="373" alt="Lab1ls1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/11c30736-5de7-4c6c-a1b7-e375c2267ecd"> <br>
