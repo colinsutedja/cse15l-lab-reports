@@ -1,7 +1,7 @@
 cd command: <br>
 1. <img width="171" alt="Lab1cd1" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/ebde7e21-8722-4562-aacd-b3d6bd8ef56d"> <br>
 - The working directory when the command ran was `/home` <br>
-- I got this output because when we don't use an argument for the `cd` command, we will change directory back to `\home`. For example if we are in the path `/home/lecture1/messages` and use the `cd` command without any arguments, we will just go back to the `/home` directory. <br>
+- I got this output because when we don't use an argument for the `cd` command, we will change directory back to `/home`. For example if we are in the path `/home/lecture1/messages` and use the `cd` command without any arguments, we will just go back to the `/home` directory. <br>
 - This is not an error <br>
 2. <img width="261" alt="Lab1cd2" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f842eb45-9d40-482e-9f82-b31ccb657fc1"> <br>
 - The working directory when the command ran was `/home/lecture1` <br>
