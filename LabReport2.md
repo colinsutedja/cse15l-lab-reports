@@ -42,6 +42,9 @@ class ChatServer {
 }
 ```
 <img width="842" alt="Screen Shot 2024-01-30 at 09 52 53" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/44bfa745-04a2-4ccf-88dd-ab48a33f8e2e"> <br>
+- The method that was called was `handleRequest` <br>
+- The relevant argument for handleRequest is URI url. The value of the relevant field `show` is `jpolitz: Hello` <br>
+- The value of the relevant field `show` changes from an empty String `""` to `jpolitz: Hello` since we used `/add-message` and put the corresponding strings in order into `show` <br>
 
 <img width="932" alt="Screen Shot 2024-01-30 at 09 53 12" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/d9dbbc7f-ba5b-482a-9ae0-063a4ef872ec"> <br> 
 
