@@ -44,12 +44,12 @@ class ChatServer {
 ```
 <img width="842" alt="Screen Shot 2024-01-30 at 09 52 53" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/44bfa745-04a2-4ccf-88dd-ab48a33f8e2e"> <br>
 - The method that was called was `handleRequest` <br>
-- The relevant argument for handleRequest is URI url. The value of the relevant field `show` is `jpolitz: Hello` <br>
+- The relevant argument for handleRequest is `URI url`. The value of the relevant field `show` is `jpolitz: Hello` <br>
 - The value of the relevant field `show` changes from an empty String `""` to `jpolitz: Hello` since we used `/add-message` and put the corresponding strings in order into `show` <br>
 
 <img width="932" alt="Screen Shot 2024-01-30 at 09 53 12" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/d9dbbc7f-ba5b-482a-9ae0-063a4ef872ec"> <br> 
 - The method that was called was `handleRequest` <br>
-- The relevant argument for handleRequest is URI url. The value of the relevant field `show` is `jpolitz: Hello` \n `yash: How+are+you` <br>
+- The relevant argument for handleRequest is `URI url`. The value of the relevant field `show` is `jpolitz: Hello` \n `yash: How+are+you` <br>
 - The value of the relevant field `show` changes from `jpolitz: Hello` to `jpolitz: Hello` \n `yash: How+are+you` since we added `yash: How+are+you` into `show` when we used `/add-message` <br>
 
 <img width="603" alt="Screen Shot 2024-01-30 at 09 53 25" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/a90c3df0-a81f-404e-abe4-dad550fc3226"> <br>
@@ -64,4 +64,4 @@ PART 2 <br>
 <img width="503" alt="Screen Shot 2024-01-30 at 10 44 25" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/5b472e03-c52f-4975-9d34-51ce37614527"> <br>
 
 PART 3 <br>
-During week 2 and 3 I learned how to start my own remote server which is something I've never done before. I also learned how we can use urls within our code to split the path to use user inputs.
+During week 2 and 3 I learned how to start my own remote server which is something I've never done before. I also learned how we can use urls within our code to split the path to use the user's inputs.
