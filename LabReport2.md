@@ -64,4 +64,4 @@ PART 2 <br>
 <img width="503" alt="Screen Shot 2024-01-30 at 10 44 25" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/5b472e03-c52f-4975-9d34-51ce37614527"> <br>
 
 PART 3 <br>
-I learned more about how we can use 
+During week 2 and 3 I learned how to start my own remote server which is something I've never done before. I also learned how we can use urls within our code to split the path to use user inputs.
