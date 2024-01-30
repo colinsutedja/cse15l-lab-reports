@@ -41,3 +41,8 @@ class ChatServer {
     }
 }
 ```
+<img width="842" alt="Screen Shot 2024-01-30 at 09 52 53" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/44bfa745-04a2-4ccf-88dd-ab48a33f8e2e">
+
+<img width="932" alt="Screen Shot 2024-01-30 at 09 53 12" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/d9dbbc7f-ba5b-482a-9ae0-063a4ef872ec">
+
+<img width="603" alt="Screen Shot 2024-01-30 at 09 53 25" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/a90c3df0-a81f-404e-abe4-dad550fc3226">
