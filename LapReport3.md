@@ -100,7 +100,7 @@ The command `-o` is for printing only the matched parts of a matching line. So w
 The command `-c` is for printing the count of matching lines in the file. This is a similar function to if we did the command `grep "plane" technical/911report/chapter-1.txt | wc -l` which also prints out the number of matching lines in the file. This is useful if we want to see how many lines match our key value instead of having to do `| wc -l` which is less things to type. <br>
 
 ```
-colin@Colins-MacBook-Pro docsearch % grep -n "among" technical/911report/chapter-1.txt
+(base) colin@Colins-MacBook-Pro docsearch % grep -n "among" technical/911report/chapter-1.txt
 200:    The cockpit voice recorder captured the sounds of the passenger assault muffled by the intervening cockpit door. Some family members who listened to the recording report that they can hear the voice of a loved one among the din. We cannot identify whose voices can be heard. But the assault was sustained.
 (base) colin@Colins-MacBook-Pro docsearch % grep -n "Among" technical/911report/chapter-1.txt
 8:    For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
