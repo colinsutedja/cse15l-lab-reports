@@ -22,15 +22,15 @@ Input that doesn't induce a failure: <br>
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      newArray[i] = arr[arr.length - i - 1];
+      arr[i] = newArray[arr.length - i - 1];
     }
-    return newArray;
+    return arr;
   }
 
 @Test
-  public void testReversedSize3() {
-    int[] input1 = {1, 2, 3};
-    assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
+  public void testReversedAllZeros() {
+    int[] input1 = {0, 0, 0};
+    assertArrayEquals(new int[]{0, 0, 0}, ArrayExamples.reversed(input1));
   }
 ```
 
