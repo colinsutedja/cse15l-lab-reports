@@ -29,8 +29,11 @@ Keys pressed: `<up><up> <enter>` <br>
 Keys pressed: `git add <shift>l<tab> <enter>` <br>
 <img width="399" alt="Screen Shot 2024-02-23 at 09 30 06" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/674bd926-a759-4cae-9a1c-e46177b185b5"> <br>
 
-Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>'` <br>
-<img width="492" alt="Screen Shot 2024-02-23 at 09 33 34" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/bf2e060d-d5e0-470e-af15-34c3343a4a28"> <br>
+Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>' <enter>` <br>
+<img width="493" alt="Screen Shot 2024-02-27 at 10 17 45" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/fa41d1fd-6641-4427-a6e8-5473b9778e32"> <br>
 
-Keys pressed: `git push o<tab> m<tab>` <br>
+
+Keys pressed: `git push o<tab> m<tab> <enter>` <br>
+<img width="493" alt="Screen Shot 2024-02-27 at 10 14 36" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/94cb6037-6280-4db1-b973-a9ef8c2ce3ab"> <br>
+
 
