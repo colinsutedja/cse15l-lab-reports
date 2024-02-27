@@ -3,7 +3,8 @@ Keys pressed: `<up> <enter>` <br>
 <img width="780" alt="Screen Shot 2024-02-22 at 09 37 06" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f7660c98-f475-4064-8206-559dc5de4881"> <br>
 
 Keys pressed: `git clone <cmd>v <enter>` <br>
-<img width="564" alt="Screen Shot 2024-02-22 at 09 40 54" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f3ad04cf-9389-4e82-825f-4e129661a366"> <br>
+<img width="525" alt="Screen Shot 2024-02-27 at 10 28 57" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/98193558-e9f4-4f59-be7d-c099f71a1a16">
+
 
 Keys pressed: `cd l<tab> <enter>` <br>
 <img width="268" alt="Screen Shot 2024-02-22 at 09 43 55" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/29bded6a-48b7-464f-88b6-92e80ff16661"> <br>
