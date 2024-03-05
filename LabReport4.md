@@ -29,11 +29,11 @@ Keys pressed: `<up><up> <enter>` The `bash test.sh` command was 2 up in the sear
 Keys pressed: `git add <shift>l<tab> <enter>` I filled in the command `git add ListExamples.java` by using `<shift>l<tab>` which then adds a change to the working directory to the staging area since I updated `ListExamples.java` and I want to commit these changes <br>
 <img width="399" alt="Screen Shot 2024-02-23 at 09 30 06" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/674bd926-a759-4cae-9a1c-e46177b185b5"> <br>
 
-Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>' <enter>` I filled in the command `git commit -m "updated ListExamples"` by using `com<tab>` which then commits the changes from the staging area into the local repository <br>
+Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>' <enter>` I filled in the command `git commit -m "updated ListExamples"` by using `com<tab>` which then puts the changes from into the local repository <br>
 <img width="493" alt="Screen Shot 2024-02-27 at 10 17 45" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/fa41d1fd-6641-4427-a6e8-5473b9778e32"> <br>
 
 
-Keys pressed: `git push o<tab> m<tab> <enter>` I filled in the command `git push origin main` by using `o<tab> m<tab>` which then commits the changes into the remote location (so we can see the changes apear on our github) <br>
+Keys pressed: `git push o<tab> m<tab> <enter>` I filled in the command `git push origin main` by using `o<tab> m<tab>` which then puts the changes into the remote location (like how we can then see the changes appear on our github) <br>
 <img width="493" alt="Screen Shot 2024-02-27 at 10 14 36" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/94cb6037-6280-4db1-b973-a9ef8c2ce3ab"> <br>
 
 
