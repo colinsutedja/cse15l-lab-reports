@@ -2,7 +2,7 @@
 Keys pressed: `<up> <enter>` The `ssh csutedja@ieng6-202.ucsd.edu` command was 1 up in the search history to log into my ieng6 <br>
 <img width="780" alt="Screen Shot 2024-02-22 at 09 37 06" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/f7660c98-f475-4064-8206-559dc5de4881"> <br>
 
-Keys pressed: `git clone <cmd>v <enter>` I filled in the commnd `got clone git@github.com:colinsutedja/lab7.git` by pasting in the ssh link from my git hub to run the command <br>
+Keys pressed: `git clone <cmd>v <enter>` I filled in the commnd `got clone git@github.com:colinsutedja/lab7.git` by pasting in the ssh link from my git hub to run the `git clone` command <br>
 <img width="525" alt="Screen Shot 2024-02-27 at 10 28 57" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/98193558-e9f4-4f59-be7d-c099f71a1a16">
 
 Keys pressed: `cd l<tab> <enter>` I filled in the command `cd lab7` by using `l<tab>` to fill the rest of the command in to change directory into lab7 <br>
@@ -14,7 +14,7 @@ Keys pressed: `bash t<tab> <enter>` I filled in the command `bash test.sh` by us
 Keys pressed: `vim <shift>l<tab> .<tab> <enter>` I filled in the command `vim ListExamples.java` by using `<shift>l<tab>` for `ListExamples` and `.<tab>` which open up `ListExamples.java` in `vim` so that I can make edits within the class <br>
 <img width="386" alt="Screen Shot 2024-02-22 at 09 47 37" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/34e995ff-da5e-47e1-8599-124683d69a28"> <br>
 
-Keys pressed: `<shift>/1 <enter> n` I used the command `!` to start a search in the class starting at the bottom and then typed `1 <enter>` to start the search for `1` and then `n` to go to the next instance of `1` <br>
+Keys pressed: `<shift>/1 <enter> n` I used the command `?` to start a search in the class starting at the bottom and then typed `1 <enter>` to start the search for `1` and then `n` to go to the next instance of `1` <br>
 <img width="580" alt="Screen Shot 2024-02-23 at 09 17 00" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/45fc1f64-8e54-429b-868c-c0eda0b72ba3"> <br>
 
 Keys pressed: `r2` I use the command `r` to go into replace mode and then `2` to fix the bug of adding 1 to `index2` instead of `index1` <br>
@@ -29,7 +29,7 @@ Keys pressed: `<up><up> <enter>` The `bash test.sh` command was 2 up in the sear
 Keys pressed: `git add <shift>l<tab> <enter>` I filled in the command `git add ListExamples.java` by using `<shift>l<tab>` which then adds a change to the working directory to the staging area since I updated `ListExamples.java` and I want to commit these changes <br>
 <img width="399" alt="Screen Shot 2024-02-23 at 09 30 06" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/674bd926-a759-4cae-9a1c-e46177b185b5"> <br>
 
-Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>' <enter>` I filled in the command `git commit -m "updated ListExamples"` by using `com<tab>` which then puts the changes from into the local repository <br>
+Keys pressed: `git com<tab> -m <shift>'updated ListExamples<shift>' <enter>` I filled in the command `git commit -m "updated ListExamples"` by using `com<tab>` which then puts the changes into the local repository <br>
 <img width="493" alt="Screen Shot 2024-02-27 at 10 17 45" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/fa41d1fd-6641-4427-a6e8-5473b9778e32"> <br>
 
 
