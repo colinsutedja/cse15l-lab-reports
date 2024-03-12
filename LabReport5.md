@@ -1,6 +1,6 @@
 PART 1 <br>
 
-1. Student: I'm a little confused with what is happening with my code when I run my ListExamples file using grade.sh as I keep getting a "test timed out after 500 milliseconds" error. I think this is because of something in my code that is taking too long to run but I'm not sure where to look. <br>
+1. Student: I'm a little confused with what is happening with my code when I run my `ListExamples` file using `grade.sh` as I keep getting a "test timed out after 500 milliseconds" error. I think this is because of something in my code that is taking too long to run but I'm not sure where to look. <br>
 <img width="871" alt="Screen Shot 2024-03-12 at 09 41 11" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/b79c7ca0-16cd-4250-a6a7-e4621445585c"> <br>
 
 2. TA: Thanks for bringing this up! Something that may help when trying to understand where the code went wrong is that if we look at the lines under "test timed out after 500 milliseconds" we can see at what line and which file that there was an error. For this bug we can see "ListExamples.java:43" which means that we should probably take a look at line 43 in `ListExamples.java`. There may be something in this line that is not functioning properly as you thought so make sure to check what variables you may be updating/changing. Something else to note is that when we see a "test timed out" error there may be some kind of infinite loop you should check for. This means maybe you did not update a variable properly which could lead to this symptom.
@@ -130,7 +130,8 @@ PART 1 <br>
     ```
 Full command line: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` <br>
 
-To fix this bug we need to go to line 43 in `ListExamples.java` and change `index1 += 1` to `index2 += 1` since updating `index1` will cause an infinite loop because this while loop is checking for `index2 < list2.size()`, not `index1 < list1.size()`
+To fix this bug we need to go to line 43 in `ListExamples.java` and change `index1 += 1` to `index2 += 1` since updating `index1` will cause an infinite loop because this while loop is checking for `index2 < list2.size()`, not `index1 < list1.size()` <br>
+
 
 PART 2 <br>
 
