@@ -1,4 +1,4 @@
-PART 1
+PART 1 <br>
 
 `grade.sh`:
 ```
@@ -100,9 +100,9 @@ class ListExamples {
 
 1. Student: I'm a little confused with what is happening with my code when I run my ListExamples file using grade.sh as I keep getting a "test timed out after 500 milliseconds" error. I think this is because of something in my code that is taking too long to run but I'm not sure where to look. <br>
 <img width="871" alt="Screen Shot 2024-03-12 at 09 41 11" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/b79c7ca0-16cd-4250-a6a7-e4621445585c"> <br>
-2. 
+2. TA: Thanks for bringing this up! Something that may help when trying to understand where the code went wrong is that if we look at the lines under "test timed out after 500 milliseconds" we can see at what line and which file that there was an error. For this bug we can see "ListExamples.java:43" which means that we should probably take a look at line 43 in `ListExamples.java`. There may be something in this line that is not functioning properly as you thought so make sure to check what variables you may be updating/changing. Something else to note is that when we see a "test timed out" error there may be some kind of infinite loop you should check for. This means maybe you did not update a variable properly which could lead to this symptom.
 
-2. 
 
-`PART 2`
+PART 2 <br>
+
 Something that I learned the second half of this quarter was doing everything from terminal. I thought it was cool that we could do so much in terminal which is something I didn't know from before. It was cool that we could edit files in vim and then push that change back to main like on github and then we would be able to see those changes as well. Another thing was how we used jdb and how we could stop at a certain line to see what was happening at that point. It was cool seeing how we could use this to debug and figure our certain things about how our code runs.
