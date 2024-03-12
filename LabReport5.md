@@ -10,6 +10,7 @@ PART 1 <br>
 
 4. Setup:
    The directory structure within the `/home/list-examples-grader/` directory:
+   ```
    - grading-area/
      - lib/
        - hamcrest-core-1.3.jar
@@ -30,6 +31,7 @@ PART 1 <br>
    - GradeServer.java
    - Server.java
    - TestListExamples.java
+   ```
 
     `grade.sh`:
     ```
