@@ -9,7 +9,7 @@ PART 1 <br>
 <img width="431" alt="Screen Shot 2024-03-12 at 10 08 59" src="https://github.com/colinsutedja/cse15l-lab-reports/assets/156348859/84bd1f52-6679-4015-ac28-5934c7e4c4d2"> <br>
 
 4. Setup:
-   The directory structure within the /home/list-examples-grader/ directory:
+   The directory structure within the `/home/list-examples-grader/` directory:
    - grading-area/
      - lib/
        - hamcrest-core-1.3.jar
@@ -128,7 +128,9 @@ PART 1 <br>
     
     }
     ```
+Full command line: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` <br>
 
+To fix this bug we need to go to line 43 in `ListExamples.java` and change `index1 += 1` to `index2 += 1` since updating `index1` will cause an infinite loop because this while loop is checking for `index2 < list2.size()`, not `index1 < list1.size()`
 
 PART 2 <br>
 
